@@ -43,7 +43,7 @@ public class Example1 : MonoBehaviour
 
 		if (score <= 100) {
 			Debug.Log(score);
-		} else if (score > 999) {
+		} else {
 			Debug.Log($"NEW HIGH SCORE!! {score}"); // string interpolation
 		}
 	}
